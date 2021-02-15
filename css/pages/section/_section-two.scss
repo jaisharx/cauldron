@@ -1,0 +1,17 @@
+.section-two {
+    margin: 18rem 0;
+
+    .container {
+        display: flex;
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .right {
+        margin-left: 14rem;
+        padding-right: 6rem;
+        width: 50%;
+    }
+}

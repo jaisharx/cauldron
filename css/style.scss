@@ -8,16 +8,18 @@
 @import './base/base';
 @import './base/scrollbar';
 
+// utils classes
+@import './utils/container';
+
 // component styles
 @import './components/navbar';
 @import './components/footer';
 @import './components/button';
 @import './components/main-cta';
 
-// utils classes
-@import './utils/container';
-
 // page styles
 @import './pages/main-section';
-@import './pages/section-one';
-@import './pages/section-two';
+@import './pages/section/section';
+@import './pages/section/section-one';
+@import './pages/section/section-two';
+@import './pages/section/section-three';
