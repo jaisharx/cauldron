@@ -1,6 +1,9 @@
 .main {
-    margin-top: 14rem;
+    min-height: calc(100vh - 12rem);
+    margin-top: 12rem;
     text-align: center;
+
+    position: relative;
 
     .logo {
         max-width: 8rem;
@@ -31,5 +34,23 @@
 
     .arrow-down {
         margin: 4rem 0;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        animation: down 2s infinite;
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(1rem);
+    }
+    100% {
+        transform: translateY(0rem);
     }
 }

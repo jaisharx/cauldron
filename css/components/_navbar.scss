@@ -1,14 +1,17 @@
 .header {
-    padding: 3rem 4rem;
+    height: 10rem;
+    display: flex;
     background-color: #fff;
 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000; // want navbar to be on top of eveything always
 }
 
 .navbar {
+    width: 100%;
     display: flex;
     align-items: center;
 
