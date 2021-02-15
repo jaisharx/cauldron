@@ -1,4 +1,4 @@
-.section-one {
+.section-two {
     margin: 18rem 0;
 
     .container {
@@ -7,10 +7,15 @@
 
     .left {
         width: 50%;
-        padding-right: 14rem;
+    }
+
+    .right {
+        margin-left: 14rem;
+        padding-right: 6rem;
+        width: 50%;
 
         .sub-title {
-            color: #7C7C7C;
+            color: #7c7c7c;
         }
 
         .title {
@@ -18,7 +23,7 @@
             font-size: 4.8rem;
             line-height: 5.8rem;
             font-weight: 700;
-            letter-spacing: -.05em;
+            letter-spacing: -0.05em;
 
             margin: 1.2rem 0 2rem 0;
         }
@@ -41,19 +46,10 @@
             font-size: 1.8rem;
             line-height: 2.8rem;
             margin-top: 1.2rem;
-            
+
             strong {
                 color: #000;
             }
         }
-
-        .cta-btn {
-            margin: 3rem 0 0 0;
-            padding: 1.4rem 2.2rem;
-        }
-    }
-
-    .right {
-        width: 50%;
     }
 }
