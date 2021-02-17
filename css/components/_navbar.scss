@@ -1,5 +1,5 @@
 .header {
-    height: 10rem;
+    height: 8rem;
     display: flex;
     background-color: #fff;
 
@@ -8,6 +8,8 @@
     left: 0;
     width: 100%;
     z-index: 1000; // want navbar to be on top of eveything always
+
+    box-shadow: 0 0 20px rgba(0 0 0 / .1);
 }
 
 .navbar {
